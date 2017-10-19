@@ -1,0 +1,101 @@
+body {
+    margin: auto;
+    background: rgb(85, 85, 107);
+    display: block;
+    overflow: auto;
+    margin: 20px 20px
+}
+
+h2{ 
+    font-family: Courier New, Courier, monospace;
+    line-height: 17px;
+    padding-left: 10px;
+}
+
+b{
+    text-decoration: underline;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.btn, input, .data{
+    align-self:center;
+    background:transparent;
+    padding:1rem 1rem;
+    margin:0 0.8rem;
+    transition:all .5s ease;
+    color:#FFFFFF;
+    font-size:0.8rem;
+    letter-spacing:1px;
+    outline:none;
+    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+input{
+    height: 170px;
+    width: auto;
+    margin: 20px;
+    background: #C0BDBD;
+    font-size: 1rem;
+    overflow-wrap: normal;
+}
+
+input.input-search{
+    height: 25px;
+    margin-bottom: 0px;
+}
+
+  .btn:hover {
+    background: #C0BDBD;
+    text-decoration: none;
+    border:solid 7px #41403E;
+  }
+
+.btn.add{
+margin-top: 25px;
+   float: left;
+   clear: left;    
+}
+
+.btn.delete, .btn.modify{
+    position: absolute; 
+    visibility: visible; 
+    left: 20px; 
+    top: 317px; 
+    z-index: 200;
+
+    
+}
+
+.btn.modify{
+    top: 243px;     
+}
+
+.title{
+    color: #C0BDBD;
+ 
+    margin: 0px;
+    margin-bottom: -30px;
+    width: 240px;
+    z-index: 1000;
+    
+}
+
+.data {
+    display: inline-block;
+    background: #C0BDBD;
+    color: #41403E;
+    font-size: 0.8rem;
+    overflow: hidden;
+}
+
+.date > strong{
+    font-size: 10px;
+}
+
+
+
+
+
+
